@@ -1,13 +1,13 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import {FaceTrackWebCamComponent } from './directives/facetracker/FaceTrackWebCamComponent';
 
 import { AppComponent } from './app.component';
 
-
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FaceTrackWebCamComponent
   ],
   imports: [
     BrowserModule
